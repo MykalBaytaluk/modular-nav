@@ -31,12 +31,21 @@ header {
   background-color: #e2e2e2;
 }
 
+.grid {
+  text-align: center;
+}
+
 h1 {
   margin: 0;
 }
 
 nav ul {
   list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
 }
 
 li a {
@@ -47,4 +56,21 @@ li a {
 .current {
   background-color: #0074d9;
   color: #fff;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
